@@ -57,8 +57,8 @@ impl Letter {
 			| Self::Meem
 			| Self::Ha
 			| Self::Waw
-			| Self::Yah => Consonant::Sun,
-			_ => Consonant::Moon
+			| Self::Yah => false,
+			_ => true
 		}
 	}
 }
